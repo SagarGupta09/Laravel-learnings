@@ -70,3 +70,40 @@ A Laravel-based CRUD application developed during my internship. This project de
 - Images are stored in the public storage directory
 
 ---
+## ⚙️ Installation & Setup
+
+1. Clone the repository:
+   ```bash
+   git clone git@github.com:your-username/crud-app.git
+Navigate to the project directory:
+
+bash
+Copy code
+cd crud-app
+Install dependencies:
+
+bash
+Copy code
+composer install
+Create .env file:
+
+bash
+Copy code
+cp .env.example .env
+Generate application key:
+
+bash
+Copy code
+php artisan key:generate
+Configure database in .env file
+
+Run migrations:
+
+bash
+Copy code
+php artisan migrate
+Start the server:
+
+bash
+Copy code
+php artisan serve
