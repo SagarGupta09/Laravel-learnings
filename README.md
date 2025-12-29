@@ -40,5 +40,33 @@ A Laravel-based CRUD application developed during my internship. This project de
   - Followed RESTful conventions for better code organization
 
 ---
+## 🔄 CRUD Operations with Validation
 
+- **Create**
+  - Form validation using Laravel validator
+  - Image upload with file type and size validation
+  - Data stored using Eloquent ORM
 
+- **Read**
+  - Display records using Blade views
+  - Fetch data using Eloquent and Query Builder
+
+- **Update**
+  - Update existing records with validation
+  - Replace or retain uploaded images
+
+- **Delete**
+  - Delete records and associated images safely
+
+---
+
+## 🖼️ Image Upload
+
+- Images are uploaded using Laravel file handling
+- Validation includes:
+  - Required field check
+  - File type (jpg, png, jpeg)
+  - Maximum file size
+- Images are stored in the public storage directory
+
+---
